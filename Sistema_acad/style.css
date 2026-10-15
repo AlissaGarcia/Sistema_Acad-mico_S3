@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.resumo {
+    border-left: 5px solid #2563eb;
+}
+
+.tabela-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    text-align: center;
+}
+
+th {
+    background-color: #dbeafe;
+}
+
+input {
+    width: 70px;
+    padding: 8px;
+    border: 1px solid #94a3b8;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    margin: 5px 5px 5px 0;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.secundario {
+    background-color: #64748b;
+}
+
+.aprovado {
+    color: #15803d;
+    font-weight: bold;
+}
+
+.recuperacao {
+    color: #b45309;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #64748b;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+
+    section {
+        padding: 12px;
+    }
+}
