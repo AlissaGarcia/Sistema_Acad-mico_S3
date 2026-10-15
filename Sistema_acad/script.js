@@ -206,4 +206,7 @@ function limparNotas() {
 document.getElementById("salvar").addEventListener("click", salvarNotas);
 document.getElementById("limpar").addEventListener("click", limparNotas);
 
+
+
+
 renderizarAlunos();
