@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Sistema de Notas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Notas Acadêmicas</h1>
+        <p>Cadastro e acompanhamento de notas dos alunos</p>
+    </header>
+
+    <main>
+        <section class="resumo">
+            <h2>Resumo da turma</h2>
+            <p>Quantidade de alunos: <strong id="quantidade">7</strong></p>
+            <p>Alunos aprovados: <strong id="aprovados">0</strong></p>
+            <p>Alunos em recuperação: <strong id="recuperacao">0</strong></p>
+        </section>
+
+        <section>
+            <h2>Notas dos alunos</h2>
+
+            <div class="tabela-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Aluno</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota 3</th>
+                            <th>Média</th>
+                            <th>Situação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-alunos"></tbody>
+                </table>
+            </div>
+
+            <button id="salvar">Salvar notas</button>
+            <button id="limpar" class="secundario">Limpar notas</button>
+            <p id="mensagem" role="status"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico desenvolvido em grupo</p>
+    </footer>
+</body>
+</html>
